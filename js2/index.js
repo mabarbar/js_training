@@ -1,6 +1,6 @@
 const password = "3j1wew8ahsad!";
 
-if (password.length > 10 && password.includes("!")) {
+if (password.length  > 10 && password.includes("!")) {
   console.log("Masz hasło które ma więcej niż 10 znaków i wykrzyknik...");
 } else if (password.length > 10) {
   console.log("Masz hasło które ma więcej niż 10 znaków...");

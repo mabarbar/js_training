@@ -1,71 +1,80 @@
 // task 1
 
-const x = 50;
-const y = 30;
+// const x = 50;
+// const y = 30;
 
-if (x > y) {
-  console.log(`${x} > ${y}`);
-}
+// if (x > y) {
+//   console.log(`${x} jest większe od ${y}`);
+// }
 
 // task 2
 
-const color = "blue";
-const newColor = "green";
+// const color = "blue";
+// const newColor = "green";
 
-if (color === newColor) {
-  console.log("Colors are matching");
-} else {
-  console.log("Colors are not matching");
-}
+// if (color === newColor) {
+//   console.log("Kolory się zgadzają")
+// }
+// else {
+//   console.log("Kolory się nie zgadzają")
+// }
 
 // task 3
 
-const X = 100;
-const Y = 50;
+// const x = 100
+// const y = 100
 
-if (X > Y) {
-  console.log(`${X} > ${Y}`);
-} else if (X === Y) {
-  console.log(`${X} = ${Y}`);
-} else {
-  console.log(`${X} < ${Y}`);
-}
+// if(x > y) {
+//   console.log("x > y")
+// }
+// else if(x === y) {
+//   console.log("x = y")
+// }
+// else {
+//   console.log("x < y")
+// }
 
 // task 4
 
-const promo = "20%";
+// const promo = "20%";
 
-switch (promo) {
-  case "10%":
-    console.log(`Today ${promo} off!`);
-    break;
-  case "20%":
-    console.log(`Today ${promo} off!`);
-    break;
-  case "30%":
-    console.log(`Today ${promo} off!`);
-    break;
-  default:
-    console.log(`Today is the day: ${promo} OFF!!!`);
-}
+// switch (promo) {
+//   case "10%":
+//     console.log("Dziś mamy 10% zniżki");
+//     break;
+//   case "20%":
+//     console.log("Dziś mamy 20% zniżki");
+//     break;
+//   case "30%":
+//     console.log("Dziś mamy 30% zniżki");
+//     break;
+//   default:
+//     console.log(`Dziś mamy ${promo} zniżki`)
+// }
 
 // task 5
 
-const number = 10;
+// const x = 10;
 
-console.log(number % 2 == 0 ? `${number} is odd` : `${number} is even`);
+// if(x % 2 === 0) {
+//   console.log("X jest parzyste")
+// } else {
+//   console.log("X jest nieparzyste")
+// }
 
 // task 6
 
-const number2 = 50;
+const x = 50;
 let text;
 
-if (number2 >= 100) {
-  text = "number is greater than 100";
-} else if (number2 < 100 && number2 > 30) {
-  text = "number is average";
-} else {
-  text = "number is small";
+if(x >= 100) {
+  text = "x >= 100"
+}
+else if (x < 100 && x > 30) {
+  text = "x jest srednie"
+}
+else {
+  text = "x jest małe"
 }
 
-console.log(text.toUpperCase());
+console.log(text.toUpperCase())
