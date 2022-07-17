@@ -38,11 +38,11 @@ console.log("---");
 
 const numbers = [1, 2, 3, 4, 5];
 for (let l = 0; l < numbers.length; l++) {
-  console.log(numbers[l] * 2)
+  console.log(numbers[l] * 2);
 }
 
 console.log("---");
 
-for(const number of numbers) {
-  console.log(number * 2)
+for (const number of numbers) {
+  console.log(number * 2);
 }

@@ -64,17 +64,17 @@
 
 // task 6
 
-const x = 50;
-let text;
+// const x = 50;
+// let text;
 
-if(x >= 100) {
-  text = "x >= 100"
-}
-else if (x < 100 && x > 30) {
-  text = "x jest srednie"
-}
-else {
-  text = "x jest małe"
-}
+// if(x >= 100) {
+//   text = "x >= 100"
+// }
+// else if (x < 100 && x > 30) {
+//   text = "x jest srednie"
+// }
+// else {
+//   text = "x jest małe"
+// }
 
-console.log(text.toUpperCase())
+// console.log(text.toUpperCase())
