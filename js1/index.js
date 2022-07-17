@@ -25,6 +25,8 @@
 
 // konkatenacja
 
+// const date = new Date()
+// console.log(date.toLocaleDateString('en'))
 
 // const text1 = 'powiększ mnie!'
 // const text2 = 'ZAPISZ MNIE MAŁYMI LITERAMI'
@@ -40,11 +42,12 @@
 // console.log(text4.includes("czy"))
 // console.log(text5.charAt(2))
 // console.log(text6.replaceAll("pies", "kot"))
-// console.log(text7.split(","))
+// console.log(text7.split(", "))
+
+console.log("%cPunkty: %c0-0", "color: black; padding: 20px; background: gold; font-size: 2rem", "background: black; padding: 20px; font-size: 2rem; color: white")
 
 // const num1 = "123"
 // console.log(num1 * 1)  // returns a number
-
 // const num2 = "abc"
 // console.log(num2 * 1)  // NaN
 
