@@ -16,53 +16,47 @@
 // colors.pop();
 // console.log(colors);
 
-const nums = [1, 2, 3, 4, 5];
+// const nums = [1, 2, 3, 4, 5];
 
-function multiply(x) {
-  return x * 2;
-}
+// function multiply(x) {
+//   return x * 2;
+// }
 
-const newNumbers = nums.map(multiply);
-console.log(newNumbers);
+// const newNumbers = nums.map(multiply);
+// console.log(newNumbers);
 
-console.log("---");
+// console.log("---");
 
-const abc = ["a", "b", "c"];
-const newAbc = nums.concat(abc);
+// const abc = ["a", "b", "c"];
+// const newAbc = nums.concat(abc);
 
 // console.log(newAbc);
 
-console.log(abc);
-console.log(...abc);
+// console.log(abc);
+// console.log(...abc);
 
-const drinks = ["pepsi", "kawa", "sok"];
-const meals = ["zupa", "spaghetti", "schabowy"];
+// const drinks = ["pepsi", "kawa", "sok"];
+// const meals = ["zupa", "spaghetti", "schabowy"];
 
-const menu = [...drinks, ...meals];
-console.log(menu);
+// const menu = [...drinks, ...meals];
+// console.log(menu);
 
-console.log("---"); // task
+// console.log("---");
 
-const numbers = [0, 0, 1, 1, 2, 2, 2];
-const colors = ["red", "green", "blue", true, 123];
-const cars = [123, true, "audi", "bmw", "mercedes", "ferrari", "🤷‍♂️", "👀"];
+// const numbers = [0, 23, 48, 175, 2, 34, 11];
 
-const numbers2 = numbers.slice(0, 2);
-console.log(`%cnumbers2:`, "background-color: green");
-console.log(numbers2);
+// function number(x) {
+//   return x % 2 === 0;
+// }
 
-const numbers3 = numbers.slice(-3);
-console.log(`%cnumbers3:`, "background-color: green");
-console.log(numbers3);
+// console.log(numbers.filter(number))
 
-randomStuff = colors.splice(-2);
-console.log(`%ccolors:`, "background-color: green");
-console.log(colors);
-console.log(randomStuff);
+// numbers.forEach((number) => console.log(number));
 
-newCars = cars.splice(2, 4, "test");
-console.log(`%ccars:`, "background-color: green");
-console.log(cars);
+const numbers = [0, 1, 2, 3];
 
-console.log(`%cnewCars:`, "background-color: green");
-console.log(newCars);
+const newNumbers = numbers.forEach(number => console.log(number * 2))
+console.log(newNumbers)
+
+const mapNumbers = numbers.map(number => number * 2)
+console.log(mapNumbers)
