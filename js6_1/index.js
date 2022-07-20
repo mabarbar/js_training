@@ -19,10 +19,32 @@
 // console.log(innerT.innerText);
 // console.log(textC.textContent);
 
-const blockElement = document.querySelector("div");
-const butttton = document.querySelector("button");
+// const blockElement = document.querySelector("div");
+// const butttton = document.querySelector("button");
 
 // blockElement.removeChild(butttton)
 // document.body.removeChild(blockElement)
 
-blockElement.remove();
+// blockElement.remove();
+
+const btn1 = document.querySelector(".btn1");
+const btn2 = document.querySelector(".btn2");
+const btn3 = document.querySelector(".btn3");
+
+console.log(btn1);
+console.log(btn2);
+console.log(btn3);
+
+btn1.addEventListener("click", function () {
+  console.log("kliknięto mnie!");
+});
+
+btn2.addEventListener("mouseover", () => {
+  console.log("najechano na mnie!");
+});
+
+const doubleClick = () => {
+  console.log("double click!");
+}
+
+btn3.addEventListener("dblclick", doubleClick);
