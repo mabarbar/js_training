@@ -46,10 +46,20 @@
 
 // user.printName()
 
+
 function User(name, age) {
   this.name = name;
   this.age = age;
 }
 
-const newUser = new User("Paulina", 22);
-console.log(newUser);
+const newUser = new User("Paulina", 21);
+const newUser2 = new User("Mateusz", 22);
+const newUser3 = new User("Kuba", 22);
+
+User.prototype.country = "Polska"
+User.prototype.hello = function () {
+  console.log(`Hello ${this.name}`);
+}
+
+console.log(newUser, newUser2, newUser3);
+newUser.hello()
