@@ -11,11 +11,23 @@ shibe = () => {
     .catch((err) => console.error(err));
 };
 
+// async function test() {
+//   try {
+//     const res = await fetch(URL);
+//     const data = await res.json();
+//     img.setAttribute("src", data);
+//   } catch {
+//     console.error("error");
+//   }
+// }
+
 btn.addEventListener("click", () => {
   fetch(URL2)
     .then((res) => res.json())
     .then((data) => img.setAttribute("src", data.message))
     .catch((err) => console.log(err));
 });
+
+// btn.addEventListener("click", test);
 
 shibe();
